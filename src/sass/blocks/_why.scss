@@ -1,0 +1,50 @@
+.why {
+    margin-top: 100px;
+    &__wrapper {
+        width: 1240px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 690px 500px;
+        grid-template-rows: 555px;
+        justify-content: space-between;
+    }
+    &__item {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 90px 570px;
+        grid-template-rows: 90px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__name {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        font-size: 29px;
+        line-height: 39px;
+        color: #4a4a4a;
+    }
+    &__text {
+        margin-top: 10px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 28px;
+        color: #4a4a4a;
+    }
+    &__img {
+        position: relative;
+        img {
+            position: absolute;
+            left: 80px;
+        }
+        &:before {
+            content: '';
+            position: absolute;
+            height: 431px;
+            width: 80px;
+            background-color: #ffc839;
+            left: 0px;
+            top: 60px;
+        }
+    }
+}

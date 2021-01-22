@@ -1,0 +1,47 @@
+.book {
+    margin-top: 100px;
+    &__wrapper {
+        padding: 127px 288px 104px 166px;
+        width: 1250px;
+        margin: 0 auto;
+        min-height: 440px;
+        background-color: #fff5da;
+        form {
+            margin-top: 15px;
+            width: 705px;
+            height: 80px;
+            padding: 9px 12px 9px 22px;
+            display: grid;
+            grid-template-columns: 105px 375px 155px;
+            grid-template-rows: 60px;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #fff;
+            border: 1px solid #000000;
+            input {
+                border: none;
+                height: 61px;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 400;
+                font-size: 29px;
+                color: #000000;
+            }
+        }
+    }
+    &__subtitle {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        font-size: 29px;
+        line-height: 39px;
+        color: #646464;
+    }
+    &__img {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        font-size: 29px;
+        color: #000000;
+    }
+    &__btn {
+        height: 61px;
+    }
+}

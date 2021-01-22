@@ -1,0 +1,32 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Righteous&family=Roboto&display=swap');
+
+
+@import 'blocks/titles';
+@import 'blocks/buttons';
+
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+section, footer {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
+@import 'blocks/promo';
+@import 'blocks/description';
+@import 'blocks/why';
+@import 'blocks/book';
+@import 'blocks/ideas';
+@import 'blocks/explore';
+@import 'blocks/footer';

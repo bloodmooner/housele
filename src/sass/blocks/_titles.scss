@@ -1,0 +1,15 @@
+.title {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    &_fz36 {
+        color: #323232;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 49px;
+    }
+    &_fz60 {
+        color: #ffffff;
+        font-size: 60px;
+        line-height: 81px;
+    }
+}

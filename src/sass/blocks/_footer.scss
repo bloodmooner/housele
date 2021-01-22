@@ -1,0 +1,123 @@
+.footer {
+    margin-top: 115px;
+    padding-bottom: 30px;
+    background-color: #093a7a;
+    &__head, &__middle, &__bottom {
+        width: 1250px;
+        margin: 0 auto;
+    }
+    &__head {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+        padding-top: 45px;
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            li {
+                display: inline;
+                color: #cacaca;
+                font-weight: 400;
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                line-height: 18px;
+            }
+        }
+    }
+    &__middle {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+    }
+    &__title {
+        margin-top: 30px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #fff;
+    }
+    &__subtitle {
+        margin-top: 23px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        color: #e5e5e5;
+    }
+    &__item {
+        ul {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            li {
+                display: inline;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 18px;
+                color: #cacaca;
+            }
+        }
+        &-australia {
+            width: 855px;
+        }
+        &-uae {
+            width: 420px;
+        }
+        &-usa {
+            width: 1085px;
+        }
+        &-mexico {
+            width: 540px;
+        }
+    }
+    &__bottom {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 110px 180px 205px 125px 330px;
+        grid-template-rows: 50px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        font-family: 'Righteous', sans-serif;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 19px;
+        text-transform: uppercase;
+        span {
+            color: #ffc839;
+        }
+    }
+    &__copyright {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 13px;
+        color: #cacaca;
+    }
+    &__address {
+        address {
+            margin-top: 15px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 13px;
+            color: #cacaca;
+        }
+    }
+    &__email {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 13px;
+        color: #cacaca;
+    }
+    &__apps {
+        display: flex;
+        justify-content: space-between;
+        img {
+            width: 138px;
+
+        }
+    }
+}
